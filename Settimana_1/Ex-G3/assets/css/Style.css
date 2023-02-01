@@ -38,29 +38,31 @@ video {
   text-align: center;
   color: rgb(158, 158, 158);
 }
-aside{
-    border-left: solid 1px;
-    padding-left: 10px;
-    color: #ffd977;
+aside {
+  border-left: solid 1px;
+  padding-left: 10px;
+  color: #ffd977;
 }
-span{
-    color: rgb(187, 128, 19);
+span {
+  color: rgb(187, 128, 19);
 }
-a{
-    color: rgb(34, 133, 133);
+a {
+  color: rgb(34, 133, 133);
 }
-a:hover{
-    color: green;
+a:hover {
+  color: green;
 }
-#bottombar{
-    border-bottom: solid 1px rgb(34, 133, 133);
-    color: black;
+#bottombar {
+  border-bottom: solid 1px rgb(34, 133, 133);
+  color: black;
 }
-#footer{
-    font-size: 10px;
-
+#footer {
+  font-size: 10px;
 }
-li{
-  line-height:2;
+li {
+  line-height: 2;
 }
-
+#video{
+  border-radius: 3%;
+  box-shadow:4px 8px 4px rgba(0, 0, 0, 0.075)  ;
+}
