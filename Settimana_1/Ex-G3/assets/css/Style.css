@@ -18,10 +18,8 @@ header {
   border-top: solid 1px #ffd977;
 }
 .container {
-  width: 750px;
-  height: 750px;
-
-  margin: 0 auto;
+margin: auto;
+width: 40%;
 }
 .titolo {
   text-align: center;
