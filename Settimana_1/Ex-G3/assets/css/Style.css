@@ -1,0 +1,66 @@
+html body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+}
+#small {
+  font-size: 10px;
+  color: #107777;
+}
+.testa {
+  background-color: #fefbf1;
+  padding: 5px;
+  border-top: solid 1px #ffd977;
+}
+.container {
+  width: 600px;
+  height: 600px;
+
+  margin: 0 auto;
+}
+.titolo {
+  text-align: center;
+}
+#medium {
+  font-size: 13px;
+  color: black;
+}
+video {
+  width: 100%;
+}
+#sigla {
+  font-size: 12px;
+  text-align: center;
+  color: rgb(158, 158, 158);
+}
+aside{
+    border-left: solid 1px;
+    padding-left: 10px;
+    color: #ffd977;
+}
+span{
+    color: rgb(187, 128, 19);
+}
+a{
+    color: rgb(34, 133, 133);
+}
+a:hover{
+    color: green;
+}
+#bottombar{
+    border-bottom: solid 1px rgb(34, 133, 133);
+    color: black;
+}
+#footer{
+    font-size: 10px;
+
+}
+li{
+  line-height:2;
+}
+
