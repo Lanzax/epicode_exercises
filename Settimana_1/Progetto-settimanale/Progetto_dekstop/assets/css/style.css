@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@800&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #393d41;
+  line-height: 1, 65;
+  margin: 0;
+  text-align: center;
+}
+header {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.intestazione {
+  background-color: black;
+  padding: 1em;
+  text-align: left;
+}
+.logo {
+  width: 10%;
+}
+.bottone {
+  text-align: center;
+  background-image: url(/assets/images/banner.jpg);
+  background-size: cover;
+  padding: 15em;
+}
+h1 + p {
+  margin-bottom: 2em;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  font-size: 75%;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #f04c2f;
+  border: none;
+}
+.container {
+  margin: 10em 0;
+}
+.paragrafo {
+  width: 30%;
+  text-align: left;
+  display: inline-block;
+}
+p {
+  color: #393d41;
+}
+button > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+h3 {
+  color: #25a2c3;
+}
+.paragrafo div{
+    margin-bottom: 4em;
+}
+.circle {
+  border-radius: 50%;
+  width: 33%;
+  display: inline-block;
+  margin-right: 6em;
+}
+
+h2 + p {
+  font-style: italic;
+  font-size: 80%;
+}
+h2 {
+  color: white;
+}
+.testimonianze {
+  padding: 5rem 8rem;
+  background-color: #f04c2f;
+}
+.testimone {
+  font-size: 80%;
+}
+.testimonianze > p {
+  color: white;
+}
+article {
+  border: 1px solid #dee1e3;
+  border-radius: 0px 0px 8px 8px;
+  margin-top:2em;
+  display: inline-block;
+  width: 25%;
+  margin-right: 2em;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  text-align: left;
+}
+li {
+  list-style-type: none;
+  padding-left: 2em;
+
+}
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding-top: 1em;
+  margin-top: 2em;
+}
+a {
+  color: white;
+}
+
+.last-section {
+  padding-bottom: 1em;
+}
+.horrizontal-row {
+  margin: auto;
+  width: 23%;
+}
+.fine-pagina{
+    width: 30%;
+    margin: auto;
+}
+.fine-pagina>h2{
+    font-size: 2em;
+}
