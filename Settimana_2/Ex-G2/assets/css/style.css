@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-color: rgb(127, 246, 255);
+    line-height: 2.5;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+h1{
+    color: red;
+}
