@@ -20,13 +20,8 @@ document.getElementById('final2').innerHTML= name2;
 
 var numero=15;
 document.getElementById('iniziale').innerHTML= numero;
-
-var incremento=(numero+numero)+","+(numero+(++numero));
-document.getElementById('valore1').innerHTML= incremento;
-
-var sottrazione= numero-11;
-var decremento=--numero-11;
-document.getElementById('valore2').innerHTML=+sottrazione+'.'+decremento;
+document.getElementById('valore1').innerHTML= (numero+numero)+","+(numero+numero+1);;
+document.getElementById('valore2').innerHTML= (numero-10)+","+(numero-10-1);;
 document.getElementById('valore3').innerHTML=numero*3;
 document.getElementById('valore4').innerHTML=numero/3;
 document.getElementById('valore5').innerHTML=numero+' '+'è un numero';
