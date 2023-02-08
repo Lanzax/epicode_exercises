@@ -6,9 +6,9 @@ var number1 = 2;
 var number2 = 4;
 
 if (number1 < number2) {
-  document.getElementById('es1').innerHTML = number2
+  document.getElementById('es1').innerHTML = number2;
 } else {
-  document.getElementById('es1').innerHTML = null
+  document.getElementById('es1').innerHTML = null;
 }
 
 /* ESERCIZIO 2
@@ -18,9 +18,9 @@ if (number1 < number2) {
 var number3 = 2;
 
 if (number3 !== 5 ) {
-  document.getElementById('es2').innerHTML = 'not equal'
+  document.getElementById('es2').innerHTML = 'not equal';
 } else {
-  document.getElementById('es2').innerHTML = 'equal'
+  document.getElementById('es2').innerHTML = 'equal';
 }
 
 /* ESERCIZIO 3
@@ -30,9 +30,9 @@ if (number3 !== 5 ) {
 var number4 = 15;
 
 if(number4 % 5 == 0) {
-  document.getElementById('es3').innerHTML = 'divisibile per 5'
+  document.getElementById('es3').innerHTML = 'divisibile per 5';
 } else {
-  document.getElementById('es3').innerHTML = 'non divisibile per 5'
+  document.getElementById('es3').innerHTML = 'non divisibile per 5';
 }
 
 /* ESERCIZIO 4
@@ -55,14 +55,14 @@ if (number5 == 8 || number6 == 8 || number5 - number6 == 8 || number5 + number6 
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-var totalShoppingCart = 30
+var totalShoppingCart = 30;
 
 if (totalShoppingCart > 50) {
-  document.getElementById('es5').innerHTML = 'Totale da pagare: ' + ' ' + totalShoppingCart + '€'
+  document.getElementById('es5').innerHTML = 'Totale da pagare: ' + ' ' + totalShoppingCart + '€';
 
 } else {
-  totalShoppingCart = totalShoppingCart + 10
-  document.getElementById('es5').innerHTML = 'Totale da pagare: ' + ' ' + totalShoppingCart + '€'
+  totalShoppingCart = totalShoppingCart + 10;
+  document.getElementById('es5').innerHTML = 'Totale da pagare: ' + ' ' + totalShoppingCart + '€';
 }
 
 
@@ -71,14 +71,14 @@ if (totalShoppingCart > 50) {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-var totale = totalShoppingCart - (totalShoppingCart * 20 / 100)
+var totale = totalShoppingCart - (totalShoppingCart * 20 / 100);
 
 if (totalShoppingCart > 50) {
-  document.getElementById('es6').innerHTML = 'Totale da pagare: ' + ' ' + totale + '€'
+  document.getElementById('es6').innerHTML = 'Totale da pagare: ' + ' ' + totale + '€';
 
 } else {
-  totalShoppingCart = totalShoppingCart + 10
-  document.getElementById('es6').innerHTML = 'Totale da pagare: ' + ' ' + totale + '€'
+  totalShoppingCart = totalShoppingCart + 10;
+  document.getElementById('es6').innerHTML = 'Totale da pagare: ' + ' ' + totale + '€';
 }
 
 /* ESERCIZIO 7
@@ -113,7 +113,7 @@ document.getElementById('es7').innerHTML = max + ' ' + med + ' ' + min;
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-var type = 50
+var type = 50;
 
 document.getElementById('es8').innerHTML = typeof type;
 
@@ -121,12 +121,12 @@ document.getElementById('es8').innerHTML = typeof type;
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-var d = 10
+var d = 10;
 
 if (d % 2 == 0) {
-  document.getElementById('es9').innerHTML = 'pari'
+  document.getElementById('es9').innerHTML = 'pari';
 } else {
-  document.getElementById('es9').innerHTML = 'dispari'
+  document.getElementById('es9').innerHTML = 'dispari';
 
 }
 
@@ -145,11 +145,11 @@ if (d % 2 == 0) {
 let val = 4;
 
 if (val < 5) {
-  document.getElementById('es10').innerHTML = 'meno di 5'
+  document.getElementById('es10').innerHTML = 'meno di 5';
 } else if (val < 10) {
-  document.getElementById('es10').innerHTML = 'meno di 5'
+  document.getElementById('es10').innerHTML = 'meno di 5';
 } else if (val <= 10) {
-  document.getElementById('es10').innerHTML = 'uguale a 10 o minore'
+  document.getElementById('es10').innerHTML = 'uguale a 10 o minore';
 }
 
 /* ESERCIZIO 11
@@ -163,41 +163,41 @@ const me = {
 }
 
 me.city = 'Toronto';
-document.getElementById('es11').innerHTML = me.city
+document.getElementById('es11').innerHTML = me.city;
 
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-delete me.lastName
-document.getElementById('es12').innerHTML = me.lastName
+delete me.lastName;
+document.getElementById('es12').innerHTML = me.lastName;
 
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-me.skills.pop()
-document.getElementById('es13').innerHTML = me.skills
+me.skills.pop();
+document.getElementById('es13').innerHTML = me.skills;
 
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-var array1 = []
+var array1 = [];
 
-array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-document.getElementById('es14').innerHTML = array1
+array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+document.getElementById('es14').innerHTML = array1;
 
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-array1.splice(9)
-array1.push(100)
+array1.splice(9);
+array1.push(100);
 
-document.getElementById('es15').innerHTML = array1
+document.getElementById('es15').innerHTML = array1;
 
