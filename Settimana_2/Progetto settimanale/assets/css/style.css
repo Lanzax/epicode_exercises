@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.calculator {
+    margin: 4em;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px;
+    width: 250px;
+    padding: 3em;
+    border-radius: 30%;
+    background-image: url(../img/ibiza.jpg);
+}
+
+table input {
+    width: 58px;
+    height: 50px;
+    font-weight: 900;
+    color: rgb(255, 238, 0);
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+table input:hover {
+    color: black;
+    background-color: rgb(255, 238, 0);
+
+}
+
+.visual {
+    width: 240px;
+    height: 40px;
+    font-size: 2em;
+}
+
+.uguale {
+    width: 250px;
+}

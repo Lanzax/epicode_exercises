@@ -214,6 +214,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
     starWarsCharacters[i].gender = "robot";
   }
 }
+console.log(starWarsCharacters)
 
 /* EXTRA ESERCIZIO 9
 

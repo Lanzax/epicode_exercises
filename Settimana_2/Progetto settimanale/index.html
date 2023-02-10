@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculator">
+
+        <h1 class="name"> CALCULATOR</h1>
+        <form name="info">
+        <input class="visual"name="visual" type="text" value ="" placeholder="0" readonly>
+        <table>
+            <tbody>
+                <tr>
+                    <td><input type="button" value="7" onclick="tasto(7)"></td>
+                    <td><input type="button" value="8" onclick="tasto(8)"></td>
+                    <td><input type="button" value="9" onclick="tasto(9)"></td>
+                    <td><input type="button" value="/" onclick="tasto('/')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="tasto(4)"></td>
+                    <td><input type="button" value="5" onclick="tasto(5)"></td>
+                    <td><input type="button" value="6" onclick="tasto(6)"></td>
+                    <td><input type="button" value="x" onclick="tasto('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="tasto(1)"></td>
+                    <td><input type="button" value="2" onclick="tasto(2)"></td>
+                    <td><input type="button" value="3" onclick="tasto(3)"></td>
+                    <td><input type="button" value="-" onclick="tasto('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="C" onclick="reset('c')"></td>
+                    <td><input type="button" value="0" onclick="tasto(0)"></td>
+                    <td><input type="button" value="." onclick="tasto('.')"></td>
+                    <td><input type="button" value="+" onclick="tasto('+')"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><input class="uguale" type="button" value="=" onclick="risultato();"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
