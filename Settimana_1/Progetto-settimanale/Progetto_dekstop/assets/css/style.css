@@ -24,7 +24,7 @@ header {
 }
 .bottone {
   text-align: center;
-  background-image: url(/assets/images/banner.jpg);
+  background-image: url(../assets/images/banner.jpg);
   background-size: cover;
   padding: 15em;
 }
@@ -91,7 +91,7 @@ article {
   border-radius: 0px 0px 8px 8px;
   margin-top:2em;
   display: inline-block;
-  width: 25%;
+  width: 3;
   margin-right: 2em;
 }
 img {
