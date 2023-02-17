@@ -4,7 +4,7 @@ REGOLE
 - Se sei in difficoltà puoi chiedere aiuto a un Teaching Assistant
 - Puoi usare Google / StackOverflow ma solo quanto ritieni di aver bisogno di qualcosa che non è stato spiegato a lezione
 - Puoi testare il tuo codice in un file separato, o de-commentando un esercizio alla volta
-- Per farlo puoi utilizzare il terminale Bash, quello di VSCode o quello del tuo sistema operativo (se utilizzi macOS o Linux)
+- Per farlo puoi utilizzare il terminale Bash, quello di VSCode o quello del tuo sistema operativo (se utilizzi macOS o  Linux)
 */
 
 // JS Basics
