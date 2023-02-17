@@ -394,6 +394,7 @@ function removeIndex(movies, a) {
 console.log(removeIndex(movies, 2));
 
 console.log("Esercizi DOM");
+// DOM (nota: gli elementi che selezionerai non si trovano realmente nella pagina)
 
 /* ESERCIZIO 20
   Scrivi una funzione per selezionare l'elemento dotato di id "container" all'interno della pagina.
@@ -471,9 +472,20 @@ console.log("Esercizi Js extra");
   *
   **
   ***
-//Non ci sono riuscito
 */
-
+function halfTree(n){
+  for (let i = 1; i <= n; i++)
+      {
+          for (let j = 1 ; j <= i; j++)
+          {   
+  
+              return('*');
+  
+          }
+          return('\n');
+      }
+    }
+    console.log(halfTree(4))
 /* ESERCIZIO 28
   Crea una funzione chiamata "tree" che riceve un numero come parametro e costruisce un albero di "*" (asterischi) dell'altezza fornita.
 
@@ -483,9 +495,7 @@ console.log("Esercizi Js extra");
     *
    ***
   *****
-//Non ci sono riuscito
-
-*/
+  */
 /* ESERCIZIO 29
   Crea una funzione chiamata "isItPrime" che riceve un numero come parametro e ritorna true se il numero fornito è un numero primo
 */
