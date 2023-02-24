@@ -1,2 +1,2 @@
-# Build-week1
+# Build-week
 First build week of Epicode school
