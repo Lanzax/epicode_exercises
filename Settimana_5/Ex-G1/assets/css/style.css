@@ -251,19 +251,21 @@ footer a {
   main {
     padding: 2em;
   }
+  main h1 {
+    text-align: center;
+  }
   main article table td {
     padding: 1em 6rem;
   }
   main article table td:last-child {
     padding: 1em 10em;
   }
-  article {
-    position: relative;
-  }
+
   iframe {
     width: 49%;
     height: 300px;
     display: inline-block;
+    vertical-align: bottom;
   }
   section {
     height: 300px;
@@ -271,21 +273,20 @@ footer a {
     display: inline-block;
     border-radius: 10px;
   }
-  section p {
-    margin-bottom: 200px;
-  }
   section form {
+    vertical-align: baseline;
     position: relative;
-    top: -6em;
+
   }
-  section input,button{
+  section input,
+  button {
     height: 50px;
   }
-    section button{
-        width: 100px;
-    }
-aside div{
-    width: 328px;
+  section button {
+    width: 100px;
+  }
+  aside div {
+    width: 33%;
     display: inline-block;
-}  
+  }
 }
