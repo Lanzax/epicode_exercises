@@ -273,10 +273,9 @@ footer a {
     display: inline-block;
     border-radius: 10px;
   }
-  section form {
-    vertical-align: baseline;
+  #form {
     position: relative;
-
+    top: 35%;
   }
   section input,
   button {
