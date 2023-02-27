@@ -88,7 +88,6 @@ label input:checked + #mark {
   margin-left: 15em;
 }
 
-
 @keyframes animate {
   0% {
     transform: rotate(360deg);
@@ -109,14 +108,26 @@ label input:checked + #mark {
   border: none;
   font-weight: bolder;
   cursor: pointer;
-} 
+}
 
-.glow::before, .glow::after {
-  content: '';
+.glow::before,
+.glow::after {
+  content: "";
   position: absolute;
   left: -2px;
   top: -2px;
-  background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff  );
+  background: linear-gradient(
+    45deg,
+    #e6fb04,
+    #ff6600,
+    #00ff66,
+    #00ffff,
+    #ff00ff,
+    #ff0099,
+    #6e0dd0,
+    #ff3300,
+    #099fff
+  );
   background-size: 400%;
   width: calc(100% + 5px);
   height: calc(100% + 5px);
@@ -125,20 +136,20 @@ label input:checked + #mark {
 }
 
 @keyframes animate {
-  0%{
+  0% {
     background-position: 0 0;
   }
-  50%{
+  50% {
     background-position: 400% 0;
   }
-  100%{
+  100% {
     background-position: 0 0;
   }
 }
 
 .glow::after {
   filter: blur(40px);
-  opacity: 0.90;
+  opacity: 0.9;
 }
 
 span {
@@ -280,10 +291,12 @@ ul {
 
 .choice:hover {
   cursor: pointer;
-  background: linear-gradient(180deg,
-      rgb(206, 6, 183) 0%,
-      35%,
-      rgb(135, 2, 115) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(206, 6, 183) 0%,
+    35%,
+    rgb(135, 2, 115) 100%
+  );
   transform: scale(1.02);
   transform: transform 100ms;
 }
