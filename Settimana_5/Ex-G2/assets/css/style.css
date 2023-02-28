@@ -201,6 +201,86 @@ footer {
 footer a {
   color: fuchsia;
 }
+/*MODIFICHE PER L' ESERCIZIO */
+.containerFloat img {
+  float: left;
+  width: 50px;
+}
+.clearfix {
+  clear: both;
+}
+.clearfix span {
+  position: relative;
+}
+.clearfix span img {
+  position: absolute;
+  top: 1.2em;
+  right: 0.2em;
+  width: 100%;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+section {
+  position: relative;
+}
+section h2 {
+  position: absolute;
+  padding: 10px 20px;
+  top: -1.5em;
+}
+section p {
+  margin-top: 2em;
+}
+#icon {
+  position: fixed;
+  bottom: 25px;
+  right: -10px;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.493);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: red;
+  text-align: center;
+  z-index: 2;
+}
+#icon2 {
+  position: fixed;
+  bottom: 100px;
+  right: -10px;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.493);
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+#icon3 {
+  position: fixed;
+  bottom: 175px;
+  right: -10px;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.493);
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+aside div{
+  position: relative;
+}
+main div i{
+  position: absolute;
+  right: 10px;
+  opacity: 0.1;
+}
+#icon a{
+  color:#a02571;
+}
+#icon2 a,#icon3 a{
+  color: blue;
+}
+
 /*CSS PER SCHERMI MEDI*/
 @media screen and (min-width: 589px) {
   header nav li {
@@ -262,20 +342,17 @@ footer a {
   }
   iframe {
     width: 49%;
-    height: 400px;
+    height: 200px;
     display: inline-block;
     vertical-align: bottom;
   }
   section {
-    height: 400px;
+    height: 200px;
     width: 49%;
     display: inline-block;
     border-radius: 20px;
   }
-  #form {
-    position: relative;
-    top: 60%;
-  }
+
   section input,
   button {
     height: 50px;
@@ -286,5 +363,15 @@ footer a {
   aside div {
     width: 33%;
     display: inline-block;
+  }
+  #icon2{
+    top: 25px;
+    bottom: auto;
+    z-index: 2;
+  }
+  #icon3{
+    z-index: 2;
+    top: 100px;
+    bottom: auto;
   }
 }
