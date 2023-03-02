@@ -1,0 +1,42 @@
+body {
+  font-size: 25px;
+  font-family: "Indie Flower";
+}
+h2 {
+  margin: 1em 0;
+}
+div div {
+  text-align: center;
+  padding: 0.6em;
+  width: 150px;
+  height: 125px;
+  margin: 5%;
+  box-shadow: 35px 35px 100px -20px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 35px 35px 100px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 35px 35px 100px -20px rgba(0, 0, 0, 0.75);
+}
+.postIt1 {
+  background-color: rgb(244, 252, 134);
+  transform: rotate(25deg);
+}
+.postIt2 {
+  background-color: rgb(144, 255, 144);
+  transform: rotate(345deg);
+}
+.postIt3 {
+  background-color: rgb(107, 107, 252);
+  transform: rotate(15deg);
+}
+.board {
+  border: 30px solid burlywood;
+  margin: 0.5em;
+  background-color: grey;
+  flex-wrap: wrap;
+  display: flex;
+}
+div div:hover {
+    width: 160px;
+    height: 135px;
+  cursor: pointer;
+  transform: rotate(0deg);
+}

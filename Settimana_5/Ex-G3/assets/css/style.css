@@ -19,14 +19,18 @@ ul {
 nav {
   display: flex;
   background-color: rgb(247, 237, 185);
+
 }
 
+.firstButton{
+  position: relative;
+  font-size: 1em;
+}
 li button {
   text-align: center;
-  font-size: 1.2em;
   background-color: rgb(255, 196, 86);
   border-radius: 50px;
-  width: 150px;
+  width: 200px;
   height: 100px;
 }
 li button:hover {
@@ -34,6 +38,9 @@ li button:hover {
   cursor: pointer;
 }
 ul img {
+  top: 30px;
+  left: 25px;
+  position: absolute;
   width: 40px;
 }
 main {
