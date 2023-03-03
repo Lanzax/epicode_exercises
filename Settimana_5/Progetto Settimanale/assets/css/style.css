@@ -1,0 +1,238 @@
+
+header{
+position: sticky;
+top: 0;
+z-index: 1;
+}
+nav {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+nav > div {
+  padding: 1em;
+  justify-content: space-between;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  margin: 0 10%;
+}
+nav li:hover,
+button:hover {
+  cursor: pointer;
+}
+nav ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+nav li {
+  list-style: none;
+  margin: 0 1em;
+}
+li:nth-child(5) {
+  color: white;
+  padding: 0.7em;
+  background-color: black;
+  border-radius: 20px;
+}
+.login {
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffc017;
+}
+.section2 {
+  display: flex;
+  width: 60%;
+}
+h1 {
+  margin-top: 1em;
+  font-size: 6em;
+  font-weight: 300;
+}
+.section1 > p {
+  margin: 1em 0;
+  font-size: 1.5em;
+}
+.section1 {
+  margin-left: 10%;
+}
+button {
+  width: 150px;
+  padding: 0.7em;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+
+}
+main {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+section {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  display: flex;
+  flex-direction: row;
+}
+article {
+  width: 30%;
+  margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+
+}
+.number {
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+.description img,
+.article > p > img {
+  margin-right: 0.4em;
+  width: 1.2em;
+  border-radius: 50%;
+}
+.description > p {
+  display: flex;
+  align-items: center;
+}
+.description h3,
+.description p {
+  margin: 0.5em;
+}
+h3 {
+  font-weight: bold;
+}
+.description p:nth-child(3) {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin: 2em 10% 0 10%;
+}
+aside {
+  margin: 2em 10%;
+}
+.container1 {
+
+  display: flex;
+  flex-direction: row;
+}
+aside .imgContainer {
+  width: 40%;
+}
+.imgContainer img {
+  max-width: 100%;
+}
+.article {
+  position: relative;
+  margin-right: 2em;
+  margin-bottom: 5em;
+  width: 60%;
+}
+.article h2 {
+  font-weight: bold;
+  font-size: 1em;
+}
+.article p:nth-child(3) {
+  color: rgba(0, 0, 0, 0.5);
+}
+.article p:last-of-type {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+}
+span {
+  background-color: rgba(160, 160, 160, 0.205);
+  padding: 0.2em 0.5em;
+  border-radius: 20px;
+}
+.container1 img:nth-child(5) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.article>p{
+    display: flex;
+    align-items: center;
+}
+.article h2,
+.article p {
+  margin: 0.5em 0;
+}
+.container2{
+  font-size: 0.8rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.footer1{
+margin-bottom: 2em;
+border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+padding-bottom: 2em;
+}
+.footer1 h3{
+  margin-bottom: 1em;
+}
+.subFooter1{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.subFooter1 div{
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);;
+padding: 0.5em 1em;
+margin: 0.2em;
+}
+.footer2{
+  flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+}
+.footer2 div{
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0.5em 1em;
+}
+.footer1 div:hover,.footer2 div:hover{
+  cursor:pointer;
+}
+.container0{
+  margin-right:5em ;
+  width: 59%;
+display: flex;
+flex-direction: column
+}
+.display{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width:850px ){
+  body{
+font-size: 0.8rem;
+}
+.display{
+  flex-direction: column-reverse;
+}
+.container0,.container2{
+  font-size: 1.3em;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.container1{
+margin-bottom: 2em;
+}
+article{
+  position: relative;
+  font-size: 1.3em;
+  width: 50%;
+}
+}
