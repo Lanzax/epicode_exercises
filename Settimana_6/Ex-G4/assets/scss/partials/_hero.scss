@@ -1,0 +1,4 @@
+.hero {
+  @include flex-row; 
+  background-color: $bgHero;
+}
