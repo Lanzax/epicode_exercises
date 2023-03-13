@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="myForm">
+        <label>Nome animale:</label>
+        <input type="text" id="petName" name="petName" />
+        <br />
+        <label>Nome propietario:</label>
+        <input type="text" id="ownerName" name="ownerName" />
+        <br />
+        <label>Specie:</label>
+        <input type="text" id="species" name="species" />
+        <br />
+        <label>Razza:</label>
+        <input type="text" id="breed" name="breed" />
+        <br />
+        <input type="button" value="Aggiungi" onclick="addToTable()" />
+      </form>
+    </div>
+    <table id="myTable" style="display: none">
+      <tr>
+        <th>petName</th>
+        <th>ownweName</th>
+        <th>species</th>
+        <th>breed</th>
+      </tr>
+    </table>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
