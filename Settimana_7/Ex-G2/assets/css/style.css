@@ -1,0 +1,26 @@
+.container{
+    border-radius: 20px;
+    margin: 2em auto;
+    width: 400px;
+    background-color: coral;
+    padding: 2em;
+    text-align: center;
+}
+button{
+    padding:  0.5em 1em;
+    margin: 1em;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 20px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+.list{
+    padding: 2em;
+    margin: 2em auto;
+    border-radius: 20px;
+    width: 400px;
+    background-color: coral;
+}
