@@ -1,4 +1,3 @@
-
 fetch("https://striveschool-api.herokuapp.com/books")
   .then((pippo) => {
     return pippo.json();
@@ -6,8 +5,8 @@ fetch("https://striveschool-api.herokuapp.com/books")
   .then((pluto) => {
     console.log(pluto);
     pluto.forEach((imgBook) => {
-    document.getElementById('row').innerHTML+=`
-    <div class="col-4">
+      document.getElementById("row").innerHTML += `
+    <div class="col-4 my-5">
     <div class="card" id="card" style="width: 18rem">
       <img height='400px' src="${imgBook.img}" class="card-img-top" alt="" />
       <div class="card-body">
@@ -15,13 +14,12 @@ fetch("https://striveschool-api.herokuapp.com/books")
         <p class="card-text">
         ${imgBook.price}$
         </p>
-        <button onclick="scartaCard()">Scarta</button>
+        <input type='button' value='Scarta' onclick='scarta()' />
       </div>
     </div>
-  `;   
+  `;
     });
   });
-  function scartaCard(){
-    document.getElementsByTagName('button').classList.add('d-none')
-}
-
+  function scarta() {
+    document.getElementById('card').style.display='none';
+    }
