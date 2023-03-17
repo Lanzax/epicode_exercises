@@ -1,6 +1,6 @@
 body{
    background-color: antiquewhite;
-   font-size: 1.5em;
+   font-size: 1.2em;
 }
 .shopContainer img{
    border-radius: 20px;
@@ -19,7 +19,7 @@ body{
 }
 #card{
    padding: 1em;
-   width: 500px;
+   width: 400px;
    align-items: center;
    display: flex;
    margin-inline: 2em;
@@ -31,4 +31,10 @@ body{
 }
 h1{
    color: red;
+}
+#spinner{
+margin: 2em 50%;
+}
+#delete{
+   margin-top: 1em;
 }

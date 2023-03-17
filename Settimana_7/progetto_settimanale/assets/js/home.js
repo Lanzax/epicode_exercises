@@ -13,9 +13,13 @@ const myShop= function(){
     .then((response)=>{
         console.log(response)
         return response.json();
+        
     })
     .then((events)=>{
         console.log(events)
+        let spinner = document.getElementById('spinner');
+  spinner.classList.add('d-none')
+  console.log(spinner)
         events.forEach((shopElement) => {
           console.log(shopElement);
           let shop = document.getElementById("shopContainer");
@@ -36,3 +40,4 @@ const myShop= function(){
  })
 }
 myShop()
+

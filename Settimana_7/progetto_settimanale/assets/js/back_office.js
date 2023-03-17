@@ -1,6 +1,7 @@
 const MY_APY ='https://striveschool-api.herokuapp.com/api/product/';
 const MY_AUTH="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDE0MmJhNmY4MWI0MjAwMTM5YjI3ZGIiLCJpYXQiOjE2NzkwNDM0OTQsImV4cCI6MTY4MDI1MzA5NH0.Bet1SID1534hQEFxZqWZrIoozxjScxtcDaA4qupLy80"
 
+
 const saveObject = async function (obj) {
     try {
         let response = await fetch(MY_APY, {
@@ -10,7 +11,9 @@ const saveObject = async function (obj) {
               "Authorization": MY_AUTH,
             'Content-Type': 'application/json',
           },
+          
         })
+        
         if (response.ok) {
           alert('Oggetto salvato')
           window.location.replace("./homepage.html");

@@ -16,7 +16,6 @@ const myShopItem = function () {
       })
       .then((events) => {
         console.log(events);
-        console.log;
             document.getElementById('name').value=events.name
             document.getElementById('description').value=events.description
             document.getElementById('brand').value=events.brand

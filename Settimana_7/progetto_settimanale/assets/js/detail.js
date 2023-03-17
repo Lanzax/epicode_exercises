@@ -16,7 +16,7 @@ const myShop = function () {
     })
     .then((events) => {
       console.log(events);
-      console.log;
+
       let details = document.getElementById("subContainer");
       details.innerHTML = `
         <h1>Dettagli prodotto</h1>
@@ -51,10 +51,10 @@ deleteButton.addEventListener("click", async () => {
   });
   console.log(response);
   if (response.ok) {
-    alert("EVENTO ELIMINATO CORRETTAMENTE");
+    alert("Eliminato");
     window.location.replace("./homepage.html");
   } else {
-    alert("PROBLEMA NELL'ELIMINAZIONE DELL'EVENTO");
+    alert("Errore");
   }
 });
 
