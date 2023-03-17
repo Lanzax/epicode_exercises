@@ -13,6 +13,7 @@ const saveObject = async function (obj) {
         })
         if (response.ok) {
           alert('Oggetto salvato')
+          window.location.replace("./homepage.html");
         } else {
           alert("Poblema nel salvare l'oggetto")
         }} catch (error) {
