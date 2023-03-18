@@ -5,6 +5,7 @@ body{
 .shopContainer img{
    border-radius: 20px;
    width: 200px;
+   height: 180px;
    padding: 0.2em;
    text-align: center;
 }
@@ -12,6 +13,7 @@ body{
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
+   justify-content: space-between;
    
 }
 #card div{
@@ -19,7 +21,7 @@ body{
 }
 #card{
    padding: 1em;
-   width: 400px;
+   width: 450px;
    align-items: center;
    display: flex;
    margin-inline: 2em;

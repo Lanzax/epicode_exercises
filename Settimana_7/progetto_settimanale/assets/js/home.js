@@ -32,8 +32,9 @@ const myShop= function(){
             <h5>${shopElement.name}</h5>
             <p>${shopElement.description}</p>
             <p>${shopElement.price}€</p>
-            <a href="details.html?eventId=${shopElement._id}" class="btn btn-primary">details</a>
-          </div>
+            <a href="details.html?eventId=${shopElement._id}" class="btn btn-primary my-2">Dettagli</a>
+            <a href="found.html?eventId=${shopElement._id}" class="btn btn-success">Scopri di piu'</a>
+            </div>
         </div>
               `;
     })

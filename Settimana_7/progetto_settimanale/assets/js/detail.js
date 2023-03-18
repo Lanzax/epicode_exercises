@@ -43,6 +43,9 @@ myShop();
 
 let deleteButton = document.getElementById("delete");
 deleteButton.addEventListener("click", async () => {
+  if(confirm('Sei sicuro di volerlo eliminare?')){
+
+  
   let response = await fetch(MY_APY + eventId, {
     method: "DELETE",
     headers: {
@@ -55,6 +58,6 @@ deleteButton.addEventListener("click", async () => {
     window.location.replace("./homepage.html");
   } else {
     alert("Errore");
-  }
+  }}
 });
 
