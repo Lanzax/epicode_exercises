@@ -28,7 +28,7 @@ const myFoundFunction= function(){
         <div class="descriptionContainer">
             <b><span>${ev.name}</span> <span>€${ev.price}</span></b>
             <p>${ev.description}</p>
-            <a href="" class="btn btn-success">Aggiungi al carrello</a>
+            <a href="homepage.html?ospId=osp" class="btn btn-success">Aggiungi al carrello</a>
         </div>
         `
     })
