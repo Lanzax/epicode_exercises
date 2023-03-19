@@ -3,7 +3,6 @@ const MY_AUTH =
   "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDE0MmJhNmY4MWI0MjAwMTM5YjI3ZGIiLCJpYXQiOjE2NzkwNDM0OTQsImV4cCI6MTY4MDI1MzA5NH0.Bet1SID1534hQEFxZqWZrIoozxjScxtcDaA4qupLy80";
 let eventId = new URLSearchParams(window.location.search).get("eventId");
 console.log(eventId)
-
 const myFoundFunction= function(){
     fetch(MY_APY+eventId,{
         method:'GET',
@@ -29,7 +28,7 @@ const myFoundFunction= function(){
         <div class="descriptionContainer">
             <b><span>${ev.name}</span> <span>€${ev.price}</span></b>
             <p>${ev.description}</p>
-            <a href="homepage.html" class="btn btn-success">Aggiungi al carrello</a>
+            <a href="" class="btn btn-success">Aggiungi al carrello</a>
         </div>
         `
     })
