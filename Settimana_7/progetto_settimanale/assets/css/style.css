@@ -1,42 +1,114 @@
 body{
-   background-color: antiquewhite;
    font-size: 1.2em;
+   background-image: url(https://i.pinimg.com/564x/a4/69/cf/a469cfecba449022d324b3d91337fb2d.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
-.shopContainer img{
-   border-radius: 20px;
-   width: 200px;
-   height: 180px;
-   padding: 0.2em;
-   text-align: center;
+img{
+   border-radius: 10px;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+.shopContainer:hover{
+   -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75); 
+   box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+   cursor: pointer;
 }
 .shopContainer{
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: space-between;
-   
-}
-#card div{
-   margin-left: 1em;
-}
-#card{
-   padding: 1em;
-   width: 450px;
    align-items: center;
    display: flex;
-   margin-inline: 2em;
-   border-radius: 50%;
+   flex-direction: row;
+   background-color: white;
+   padding: 0.5em;
+   border-radius: 20px;
+   
 }
+#textContain{
+   border-left: 1px solid black;
+   padding-left: 0.5em;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+p span{
+   font-size: 1.5em;
+   color: rgb(255, 153, 0);
+   font-weight: bold;
+}
+
 #input{
    margin-bottom: 1em;
    width: 60%;
 }
-h1{
-   color: red;
-}
+
 #spinner{
 margin: 2em 50%;
 }
 #delete{
    margin-top: 1em;
+}
+#main{
+   padding: 1em;
+   border-radius: 10px;
+   background-color: #ffffff87;
+}
+footer{
+   bottom: 0;
+   position: relative;
+   color: rgba(0, 0, 0, 0.692);
+   text-align: center;
+   background-color: white;
+}
+@media screen and (max-width:530px){
+   .shopContainer{
+      font-size: 0.8rem;
+   }
+   .shopContainer img{
+   max-width: 90%;
+   }
+}
+
+#col{
+   padding: 1em;
+   border-radius: 10px;
+   background-color: #ffffff87;
+   text-align: center;
+   font-size: 2em;
+}
+#col img{
+   width: 30%;
+}
+.descriptionContainer span:last-of-type{
+   color: rgb(255, 153, 0);
+}
+#form{
+   font-family: 'Courier New', Courier, monospace;
+}
+#button,#changeButton,#delete,#buttonProva{
+   font-size:0.6em ;
+}
+#detailContainer{
+   background-color: #ffffff87;
+   text-align: center;
+   padding: 1em;
+   border-radius: 10px;
+}
+i:hover{
+color: red;
+cursor: pointer;
+}
+#pContain{
+   display: flex;
+  justify-content: center;
+}
+#pShopContainer{
+   width: 80%;
+}
+@media screen and (max-width:580px){
+   #foundContainer{
+      font-size: 10px;
+   }
 }

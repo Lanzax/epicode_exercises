@@ -36,3 +36,35 @@ const saveObject = async function (obj) {
           console.log(newObject)
     saveObject(newObject)
       })
+
+
+let buttonProva=document.getElementById('buttonProva')
+buttonProva.addEventListener('click',()=>{
+    let pCard = document.getElementById("pContain");
+            pCard.innerHTML += `
+            <div id='pShopContainer'>
+                <div id="shopContainer" class="shopContainer" >
+                    <div id="imgContain">
+                      <img src="${document.getElementById('url').value}" alt="">
+                    </div>
+                  </a>
+                  <div id="textContain">
+                    <div id="subText">
+                      <h2>${document.getElementById('name').value}</h2>
+                      <p>${document.getElementById('description').value}</p>
+                    </div>
+         
+                  <div>
+                    <p>Da <span>€ ${document.getElementById('price').value}</span></p>
+                  </div>
+                  <div class=" my-2 btn btn-secondary">Dettagli</div>
+                  <div class="btn btn-success">Scopri di piu'</div>
+                  </div>
+                </div>
+                </div>
+                `;
+                buttonProva.classList.add('d-none')
+})
+
+
+

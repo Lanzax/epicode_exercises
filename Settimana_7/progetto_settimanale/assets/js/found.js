@@ -20,15 +20,16 @@ const myFoundFunction= function(){
         let spinner = document.getElementById('spinner');
   spinner.classList.add('d-none')
   console.log(spinner)
-        let foundDetails = document.getElementById('foundContainer')
+        let foundDetails = document.getElementById('col')
         foundDetails.innerHTML=`
         <div id="classContainer">
         <div class="imgContainer">
             <img src="${ev.imageUrl}" alt="">
         </div>
         <div class="descriptionContainer">
-            <h3>${ev.name}</h3>
+            <b><span>${ev.name}</span> <span>€${ev.price}</span></b>
             <p>${ev.description}</p>
+            <a href="homepage.html" class="btn btn-success">Aggiungi al carrello</a>
         </div>
         `
     })

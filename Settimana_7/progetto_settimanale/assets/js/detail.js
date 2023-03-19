@@ -19,21 +19,21 @@ const myShop = function () {
 
       let details = document.getElementById("subContainer");
       details.innerHTML = `
-        <h1>Dettagli prodotto</h1>
-          <h3>Name</h3>
+        <h1>Dettagli prodotto:</h1>
+          <p>Name</p>
         <input id='input' type="text" value="${events.name}" disabled>
-          <h3>Description</h3>
+          <p>Description</p>
           <input id='input' type="text" value="${events.description}" disabled>
-          <h3>Brand</h3>
+          <p>Brand</p>
           <input id='input' type="text" value="${events.brand}" disabled>
-          <h3>Image Url</h3>
+          <p>Image Url</p>
           <input id='input' type="text" value="${events.imageUrl}" disabled>
-          <h3>Price</h3>
+          <p>Price</p>
           <input id='input' type="text" value="${events.price}" disabled>
-             <h3>ID</h3>
+             <p>ID</p>
             <input id='input' type="text" value="${events._id}" disabled>
             <div>
-            <a href="change.html?eventId=${events._id}" class="btn btn-primary">Modifica</a>
+            <a href="change.html?eventId=${events._id}" class="text-light btn btn-warning">Modifica</a>
             </div>
             
             `;

@@ -16,26 +16,37 @@ const myShop= function(){
         
     })
     .then((events)=>{
-        console.log(events)
         let spinner = document.getElementById('spinner');
   spinner.classList.add('d-none')
   console.log(spinner)
         events.forEach((shopElement) => {
           console.log(shopElement);
-          let shop = document.getElementById("shopContainer");
+          let shop = document.getElementById("row");
           shop.innerHTML += `
-          <div id='card'>
-          <div>
-          <img src="${shopElement.imageUrl}" class="card-img-top" alt="">
-          </div>
-          <div>
-            <h5>${shopElement.name}</h5>
-            <p>${shopElement.description}</p>
-            <p>${shopElement.price}€</p>
-            <a href="details.html?eventId=${shopElement._id}" class="btn btn-primary my-2">Dettagli</a>
-            <a href="found.html?eventId=${shopElement._id}" class="btn btn-success">Scopri di piu'</a>
+          <div class="col-12 col-xl-6 my-3">
+              <div id="shopContainer" class="shopContainer" >
+                <a href="found.html?eventId=${shopElement._id}">
+                  <div id="imgContain">
+                    <img src="${shopElement.imageUrl}" alt="">
+                  </div>
+                </a>
+                <div id="textContain">
+                  <div id="subText">
+                    <h2>${shopElement.name}</h2>
+                    <p>${shopElement.description}</p>
+                  </div>
+       
+                <div>
+                  <p>Da <span>€ ${shopElement.price}</span></p>
+                </div>
+                <div id="buttonContain">
+                <a href="details.html?eventId=${shopElement._id}" class=" my-2 btn btn-secondary">Dettagli</a>
+                  <a href="found.html?eventId=${shopElement._id}" class="btn btn-success">Scopri di piu'</a>
+
+                </div>
+                </div>
+              </div>
             </div>
-        </div>
               `;
     })
  })

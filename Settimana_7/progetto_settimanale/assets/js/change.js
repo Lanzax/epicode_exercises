@@ -28,6 +28,7 @@ const myShopItem = function () {
   
 let changeButton = document.getElementById('changeButton')
 changeButton.addEventListener('click',()=>{
+  if(confirm('Sei sicuro di volerlo modificare?')){
     const changeObject = async function (obj) {
         try {
             let response = await fetch(MY_APY+eventId, {
@@ -56,5 +57,6 @@ changeButton.addEventListener('click',()=>{
               }
               console.log(newObject)
         changeObject(newObject)
+            }
 })
   
