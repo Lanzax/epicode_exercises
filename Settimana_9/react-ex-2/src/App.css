@@ -37,6 +37,17 @@
   }
 }
 .nav{
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  background-color: pink;
+  padding: 0.5em 0;
+}
+footer{
+  font-weight: bold;
+  z-index: 1;
+  position: sticky;
+  bottom: 0;
   background-color: pink;
   padding: 0.5em 0;
 }
