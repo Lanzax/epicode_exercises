@@ -36,22 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.nav{
-  z-index: 1;
-  position: sticky;
-  top: 0;
-  background-color: pink;
-  padding: 0.5em 0;
-}
-footer{
-  font-weight: bold;
-  z-index: 1;
-  position: sticky;
-  bottom: 0;
-  background-color: pink;
-  padding: 0.2em 0;
-}
-.nav a{
-  color: black;
-  font-weight: bold;
-}
