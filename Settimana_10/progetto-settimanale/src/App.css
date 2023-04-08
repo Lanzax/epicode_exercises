@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+body{
+  background-color: rgb(197, 245, 245);
+}
+.meteoCard{
+  background-color: white;
+  padding: 1em;
+  border-radius: 50px;
+}
+
+.form{
+  background-image: url('https://www.nationalgeographic.it/upload/ngi-hero/gettyimages-660629130_1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+}
+.placeForm{
+width: 60%;
+margin: auto;
+}
