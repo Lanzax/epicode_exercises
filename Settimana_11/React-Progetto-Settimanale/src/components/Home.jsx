@@ -23,7 +23,7 @@ const Home = () => {
         console.log(songInfo);
         dispatch({
           type: "ADD_MUSIC",
-          payload: songInfo.filter(( i) => i < 4),
+          payload: songInfo.filter((el,i) => i < 4),
         });
       } else {
         console.log("error");
@@ -45,7 +45,7 @@ const Home = () => {
         console.log(songInfo);
         dispatch({
           type: "ADD_MUSIC_SEARCH",
-          payload: songInfo.filter(( i) => i < 8),
+          payload: songInfo.filter((el, i) => i < 8),
         });
       } else {
         console.log("error");
