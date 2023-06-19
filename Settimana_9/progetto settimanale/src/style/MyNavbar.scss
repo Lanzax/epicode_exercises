@@ -1,0 +1,14 @@
+.my-navbar {
+    .img-logo {
+        width: 5em;
+    }
+
+    .img-avatar {
+        width: 2em;
+    }
+
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+}
